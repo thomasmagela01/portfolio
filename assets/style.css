@@ -1,1 +1,47 @@
 @charset "UTF-8";
+
+@font-face {
+    font-family: 'SF UI';
+    src: url(fonts/SFUIText-Regular.woff) format('truetype');
+    font-weight: normal;
+} 
+/* Variáveis */
+
+:root {
+    --cor0: #4831D4;
+    --cor1: #CCF381;
+    --cor2: #fff;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: var(--cor0);
+    font-family:'SF UI', Times, serif; 
+}
+
+div#nome {
+    font-size: 20px;
+    color: var(--cor1);
+}
+
+div#prof {
+    font-size: 35px;
+    color: var(--cor1);
+}
+
+h1 > span > span {
+    color: var(--cor2);
+}
+
+div#expe {
+    font-size: 15px;
+    color: var(--cor2);
+}
+
+.ionicon {
+    fill: var(--cor2);
+}
