@@ -26,11 +26,19 @@ body {
 div#nome {
     font-size: 20px;
     color: var(--cor1);
+
 }
 
 div#prof {
     font-size: 35px;
     color: var(--cor1);
+    width: 400px;
+    height: 200px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
 
 h1 > span > span {
