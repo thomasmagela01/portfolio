@@ -5,6 +5,7 @@
     src: url(fonts/SFUIText-Regular.woff) format('truetype');
     font-weight: normal;
 } 
+
 /* Variáveis */
 
 :root {
@@ -19,37 +20,51 @@
 }
 
 body {
-    background-color: var(--cor0);
     font-family:'SF UI', Times, serif; 
-}
-
-div#nome {
-    font-size: 20px;
-    color: var(--cor1);
-
-}
-
-div#prof {
-    font-size: 35px;
-    color: var(--cor1);
-    width: 400px;
-    height: 200px;
-
+    height: 100vh;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    
 }
 
-h1 > span > span {
-    color: var(--cor2);
+main {
+    background-color: var(--cor0);
+    width: 65%;
 }
 
-div#expe {
-    font-size: 15px;
-    color: var(--cor2);
+#nome {
+    font-size: 22px;
+    margin: 35px;
+}
+
+#nome > p > a {
+    text-decoration: none;
+    color: var(--cor1);
+}
+
+#rede {
+    margin: 125px 200px 0px 200px;
 }
 
 .ionicon {
-    fill: var(--cor2);
+    fill: white;
+}
+
+#prof {
+    font-size: 35px;
+    margin: 0 200px;
+    color: var(--cor1);
+}
+
+#prof > h1 > span > span {
+    color: var(--cor2);
+}
+
+#expe {
+    font-size: 16px;
+    margin: 25px 200px 0px 200px;
+    color: var(--cor2);
+}
+
+section {
+    background-color: var(--cor1);
+    width: 35%;
 }
